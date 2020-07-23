@@ -56,6 +56,23 @@ a {
     height: 50vh;
 }
 
+/* GRID */
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.box > img {
+    width: 100%;
+}
+
+.box {
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
